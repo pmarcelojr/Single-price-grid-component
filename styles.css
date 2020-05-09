@@ -26,7 +26,7 @@ main {
 }
 
 .main p {
-    color: hsl(2014, 43%, 79%);
+    color: hsl(2014, 43%, 69%);
     margin: 7px;
 }
 
@@ -39,7 +39,7 @@ main {
 }
 
 h1 {
-    color: hsl(179, 62%, 43%);
+    color: hsl(215, 62%, 43%);
     font-size: 34px;
     margin-top: 0;
 }
@@ -52,12 +52,12 @@ section {
 }
 
 section.grayish-blue {
-    background-color: hsl(179, 47%, 52%);
+    background-color: hsl(215, 47%, 52%);
     color: white;
 }
 
 section.cyan {
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(215, 62%, 43%);
     color: white;
 }
 
@@ -110,10 +110,11 @@ footer {
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    color: hsl(2014, 43%, 69%);
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: hsl(215, 47%, 52%);
     text-decoration: none;
 }
 

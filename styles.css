@@ -106,7 +106,6 @@ ul li {
 footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
 }
 
 .attribution { 
@@ -114,11 +113,12 @@ footer {
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
     .row {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
